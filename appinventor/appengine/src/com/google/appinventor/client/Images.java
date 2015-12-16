@@ -502,4 +502,10 @@ public interface Images extends Resources {
   @Source("com/google/appinventor/images/proximitysensor.png")
   ImageResource proximitysensor();
 
+  /**
+   * Designer palette item: Calendar Component
+   */
+  @Source("com/google/appinventor/images/calendar.png")
+  ImageResource calendar();
+
 }

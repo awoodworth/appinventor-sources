@@ -5428,19 +5428,19 @@ public interface OdeMessages extends Messages {
   @Description("")
   String GetRowsWithConditionsMethods();
 
-  @DefaultMessage("简体中文")
+  @DefaultMessage("ç®€ä½“ä¸­æ–‡")
   @Description("")
   String SwitchToSimplifiedChinese();
 
-  @DefaultMessage("繁体中文")
+  @DefaultMessage("ç¹�ä½“ä¸­æ–‡")
   @Description("")
   String SwitchToTraditionalChinese();
 
-  @DefaultMessage("Español")
+  @DefaultMessage("EspaÃ±ol")
   @Description("")
   String SwitchToSpanish();
 
-  @DefaultMessage("Français")
+  @DefaultMessage("FranÃ§ais")
   @Description("")
   String SwitchToFrench();
 
@@ -5448,7 +5448,7 @@ public interface OdeMessages extends Messages {
   @Description("")
   String SwitchToItalian();
 
-  @DefaultMessage("Pусский")
+  @DefaultMessage("PÑƒÑ�Ñ�ÐºÐ¸Ð¹")
   @Description("")
   String SwitchToRussian();
 
@@ -5568,5 +5568,16 @@ public interface OdeMessages extends Messages {
   @DefaultMessage("PostMedia")
   @Description("")
   String PostMediaMethods();
+  
+  
+  // NEW STUFF
+  @DefaultMessage("SetDaysWithEvents")
+  @Description("")
+  String SetDaysWithEventsMethods();
+  
+  @DefaultMessage("BackgroudColorPressed")
+  @Description("")
+  String BackgroundColorPressedProperties();
+  
 
 }
